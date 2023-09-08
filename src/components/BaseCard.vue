@@ -1,3 +1,5 @@
+<!-- eslint-disable prettier/prettier -->
+<!-- eslint-disable prettier/prettier -->
 <script setup>
 const props = defineProps({
   character: {
@@ -21,7 +23,7 @@ const props = defineProps({
       :src="props.character.imageUrl"
     />
     <div class="p-4">
-      <h2 class="text-2xl font-semibold text-gray-800">
+      <h2 class="text-1xl font-semibold text-gray-800">
         {{ props.character.name }}
       </h2>
     </div>
